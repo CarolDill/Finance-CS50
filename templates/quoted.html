@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <div>
+    <p>Now, a share of {{quote["symbol"]}} will cost you {{quote["price"] | usd}}.</p>
+    </div>
+
+{% endblock %}
